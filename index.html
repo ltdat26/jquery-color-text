@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text</title>
+</head>
+<body>
+  <H1>Change color text</H1>
+
+  <a id="red" href="">red</a>
+  <a id="yellow" href="">yellow</a>
+  <a id="blue" href="">blue</a>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas rerum tempore? Totam quas itaque, officiis voluptatum reprehenderit consectetur. Doloribus illo fuga ut alias officiis veniam enim eius nesciunt molestiae?</p>
+  <p>Hic eius tenetur in vel nulla totam, praesentium adipisci id accusamus illum ipsa minus ratione molestias odio dolorem corporis libero delectus ab iste saepe debitis. Omnis veniam tenetur perspiciatis odit?</p>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#red').click(function(){
+        $('p').css('color', 'red');
+        return false;
+      });
+
+      $('#yellow').click(function(){
+        $('p').css('color', 'yellow');
+        return false;
+      });
+
+      $('#blue').click(function(){
+        $('p').css('color', 'navy');
+        return false;
+      });
+    });
+
+
+    $(document).ready(function(){
+    });
+
+
+
+
+  </script>
+</body>
+</html>
